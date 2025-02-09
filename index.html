@@ -8,13 +8,56 @@ layout: default
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Blog</title>
-    <!-- Optional: Include your CSS file here -->
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
+
     <header>
         <h1>Welcome to My Blog</h1>
-        <!-- You can add navigation links here -->
+        <!-- Navigation links -->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -34,5 +77,5 @@ layout: default
     <footer>
         <p>&copy; 2025 Your Blog. All rights reserved.</p>
     </footer>
+
 </body>
-</html>
